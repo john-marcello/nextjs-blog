@@ -13,8 +13,9 @@ export default function Home() {
       <main>
       <h1 className="title">
         Read{' '}
+        <span>Go to </span>
         <Link href="/posts/first-post"> 
-          Go To <a href="https://nextjs.org">this page</a>
+          <a href="https://nextjs.org">this page</a>
         </Link>
         </h1>
 
